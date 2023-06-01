@@ -1,0 +1,36 @@
+{
+  "name": "boilermaker",
+  "version": "1.0.0",
+  "description": "starter_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm-test",
+    "start": "node server",
+    "start-dev": "webpack -w & nodemon server",
+    "start-server": "nodemon --watch server -e js,html server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FullstackAcademy/fs-app-template.git"
+  },
+  "author": "Nataliia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FullstackAcademy/fs-app-template/issues"
+  },
+  "homepage": "https://github.com/FullstackAcademy/fs-app-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/preset-react": "^7.22.3",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.85.0",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
+  }
+}
